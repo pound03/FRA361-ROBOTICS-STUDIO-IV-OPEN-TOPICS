@@ -1,0 +1,2 @@
+To use model YOLOv5, the models and utils folder must be in the same directory where the .py file is located. These two folders can be downloaded from the link:
+https://github.com/ultralytics/yolov5
