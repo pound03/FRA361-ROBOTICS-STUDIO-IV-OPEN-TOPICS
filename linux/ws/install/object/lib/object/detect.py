@@ -1,0 +1,1 @@
+/home/kim/open_topic/linux/ws/src/object/scripts/detect.py

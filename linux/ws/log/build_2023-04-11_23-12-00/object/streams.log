@@ -1,0 +1,34 @@
+[0.044s] Invoking command in '/home/kim/open_topic/linux/ws/build/object': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake /home/kim/open_topic/linux/ws/src/object -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kim/open_topic/linux/ws/install/object
+[0.096s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.120s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.269s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.288s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.336s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.520s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.522s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.653s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[0.715s] -- Configuring done
+[0.728s] -- Generating done
+[0.730s] -- Build files have been written to: /home/kim/open_topic/linux/ws/build/object
+[0.745s] Invoked command in '/home/kim/open_topic/linux/ws/build/object' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake /home/kim/open_topic/linux/ws/src/object -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kim/open_topic/linux/ws/install/object
+[0.746s] Invoking command in '/home/kim/open_topic/linux/ws/build/object': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/object -- -j12 -l12
+[0.787s] [100%] Built target cpp_node_test
+[0.794s] Invoked command in '/home/kim/open_topic/linux/ws/build/object' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/object -- -j12 -l12
+[0.870s] Invoking command in '/home/kim/open_topic/linux/ws/build/object': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/object
+[0.895s] -- Install configuration: ""
+[0.896s] -- Execute custom install script
+[0.896s] -- Symlinking: /home/kim/open_topic/linux/ws/install/object/share/object/environment/pythonpath.sh
+[0.898s] -- Symlinking: /home/kim/open_topic/linux/ws/install/object/share/object/environment/pythonpath.dsv
+[0.901s] -- Symlinking: /home/kim/open_topic/linux/ws/install/object/lib/python3.8/site-packages/object/__init__.py
+[0.903s] -- Symlinking: /home/kim/open_topic/linux/ws/install/object/lib/python3.8/site-packages/object/dummy_module.py
+[0.905s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[0.905s]   ament_cmake_symlink_install_programs() can't find
+[0.905s]   '/home/kim/open_topic/linux/ws/src/object/scripts/test_lib.py'
+[0.905s] Call Stack (most recent call first):
+[0.905s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_programs)
+[0.905s]   cmake_install.cmake:46 (include)
+[0.905s] 
+[0.905s] [0m
+[0.909s] Invoked command in '/home/kim/open_topic/linux/ws/build/object' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/object

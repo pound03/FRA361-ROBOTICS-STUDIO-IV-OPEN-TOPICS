@@ -1,0 +1,1 @@
+/home/kim/open_topic/linux/ws/build/object_detection/ament_cmake_core/object_detectionConfig.cmake
