@@ -1,0 +1,37 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kim/open_topic/linux/ws/build/fake_image
+[100%] Built target cpp_node_test
+-- Install configuration: ""
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/environment/pythonpath.sh
+-- Installing: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/environment/pythonpath.dsv
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/lib/python3.8/site-packages/fake_image
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/lib/python3.8/site-packages/fake_image/dummy_module.py
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/lib/python3.8/site-packages/fake_image/__init__.py
+Listing '/home/kim/open_topic/linux/ws/install/fake_image/lib/python3.8/site-packages/fake_image'...
+-- Installing: /home/kim/open_topic/linux/ws/install/fake_image/lib/fake_image/pub_image.py
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/ament_index/resource_index/package_run_dependencies/fake_image
+-- Installing: /home/kim/open_topic/linux/ws/install/fake_image/share/ament_index/resource_index/parent_prefix_path/fake_image
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/environment/ament_prefix_path.sh
+-- Installing: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/environment/path.sh
+-- Installing: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/environment/path.dsv
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/local_setup.bash
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/local_setup.sh
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/local_setup.zsh
+-- Installing: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/local_setup.dsv
+-- Installing: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.dsv
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/ament_index/resource_index/packages/fake_image
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/cmake/fake_imageConfig.cmake
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/cmake/fake_imageConfig-version.cmake
+-- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.xml

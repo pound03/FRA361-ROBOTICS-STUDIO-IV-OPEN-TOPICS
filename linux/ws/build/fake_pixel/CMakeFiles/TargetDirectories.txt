@@ -1,0 +1,10 @@
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/uninstall.dir
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/fake_pixel_uninstall.dir
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/cpp_node_test.dir
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/test.dir
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/edit_cache.dir
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/rebuild_cache.dir
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/list_install_components.dir
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/install.dir
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/install/local.dir
+/home/kim/open_topic/linux/ws/build/fake_pixel/CMakeFiles/install/strip.dir

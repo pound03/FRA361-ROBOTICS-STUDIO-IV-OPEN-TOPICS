@@ -1,0 +1,29 @@
+[0.106s] Invoking command in '/home/kim/open_topic/linux/ws/build/delay_frame': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/delay_frame -- -j12 -l12
+[0.150s] [100%] Built target cpp_node_test
+[0.159s] Invoked command in '/home/kim/open_topic/linux/ws/build/delay_frame' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/delay_frame -- -j12 -l12
+[0.240s] Invoking command in '/home/kim/open_topic/linux/ws/build/delay_frame': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/delay_frame
+[0.265s] -- Install configuration: ""
+[0.265s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/environment/pythonpath.sh
+[0.265s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/environment/pythonpath.dsv
+[0.265s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/lib/python3.8/site-packages/delay_frame
+[0.265s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/lib/python3.8/site-packages/delay_frame/dummy_module.py
+[0.265s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/lib/python3.8/site-packages/delay_frame/__init__.py
+[0.297s] Listing '/home/kim/open_topic/linux/ws/install/delay_frame/lib/python3.8/site-packages/delay_frame'...
+[0.301s] -- Installing: /home/kim/open_topic/linux/ws/install/delay_frame/lib/delay_frame/delay_frame.py
+[0.301s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame
+[0.301s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/ament_index/resource_index/package_run_dependencies/delay_frame
+[0.301s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/ament_index/resource_index/parent_prefix_path/delay_frame
+[0.301s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/environment/ament_prefix_path.sh
+[0.301s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/environment/ament_prefix_path.dsv
+[0.301s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/environment/path.sh
+[0.302s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/environment/path.dsv
+[0.302s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/local_setup.bash
+[0.302s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/local_setup.sh
+[0.302s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/local_setup.zsh
+[0.302s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/local_setup.dsv
+[0.303s] -- Installing: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/package.dsv
+[0.303s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/ament_index/resource_index/packages/delay_frame
+[0.303s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/cmake/delay_frameConfig.cmake
+[0.303s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/cmake/delay_frameConfig-version.cmake
+[0.303s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/delay_frame/share/delay_frame/package.xml
+[0.323s] Invoked command in '/home/kim/open_topic/linux/ws/build/delay_frame' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/delay_frame

@@ -1,0 +1,29 @@
+[0.105s] Invoking command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/pixel2coordinate -- -j12 -l12
+[0.200s] [100%] Built target cpp_node_test
+[0.216s] Invoked command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/pixel2coordinate -- -j12 -l12
+[0.312s] Invoking command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/pixel2coordinate
+[0.367s] -- Install configuration: ""
+[0.367s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/environment/pythonpath.sh
+[0.368s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/environment/pythonpath.dsv
+[0.368s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/lib/python3.8/site-packages/pixel2coordinate
+[0.368s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/lib/python3.8/site-packages/pixel2coordinate/dummy_module.py
+[0.368s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/lib/python3.8/site-packages/pixel2coordinate/__init__.py
+[0.403s] Listing '/home/kim/open_topic/linux/ws/install/pixel2coordinate/lib/python3.8/site-packages/pixel2coordinate'...
+[0.408s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/lib/pixel2coordinate/dummy_script.py
+[0.408s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate
+[0.408s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/ament_index/resource_index/package_run_dependencies/pixel2coordinate
+[0.408s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/ament_index/resource_index/parent_prefix_path/pixel2coordinate
+[0.409s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/environment/ament_prefix_path.sh
+[0.409s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/environment/ament_prefix_path.dsv
+[0.409s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/environment/path.sh
+[0.409s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/environment/path.dsv
+[0.412s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/local_setup.bash
+[0.412s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/local_setup.sh
+[0.413s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/local_setup.zsh
+[0.413s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/local_setup.dsv
+[0.413s] -- Installing: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.dsv
+[0.413s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/ament_index/resource_index/packages/pixel2coordinate
+[0.413s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/cmake/pixel2coordinateConfig.cmake
+[0.413s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/cmake/pixel2coordinateConfig-version.cmake
+[0.413s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.xml
+[0.470s] Invoked command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/pixel2coordinate

@@ -1,0 +1,212 @@
+[0.402s] DEBUG:colcon:Command line arguments: ['/home/kim/.local/bin/colcon', 'build', '--packages-select', 'check_qos']
+[0.402s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1e573e4fa0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['check_qos'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1e573e4fa0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1e573457f0>)
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.445s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kim/open_topic/linux/ws'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/bag_file) by extension 'python_setup_py'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/check_qos) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/check_qos) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/check_qos) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/check_qos) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/check_qos) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/check_qos) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/check_qos) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/check_qos) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/check_qos) by extension 'ros'
+[0.477s] DEBUG:colcon.colcon_core.package_identification:Package 'src/check_qos' with type 'ros.ament_cmake' and name 'check_qos'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/delay_frame) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/delay_frame) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/delay_frame) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/delay_frame) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/delay_frame) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/delay_frame) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/delay_frame) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/delay_frame) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/delay_frame) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/delay_frame' with type 'ros.ament_cmake' and name 'delay_frame'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fake_image' with type 'ros.ament_cmake' and name 'fake_image'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fake_pixel' with type 'ros.ament_cmake' and name 'fake_pixel'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pixel2coordinate' with type 'ros.ament_cmake' and name 'pixel2coordinate'
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.512s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'delay_frame' in 'src/delay_frame'
+[0.512s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fake_image' in 'src/fake_image'
+[0.512s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fake_pixel' in 'src/fake_pixel'
+[0.512s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pixel2coordinate' in 'src/pixel2coordinate'
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.518s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/kim/open_topic/linux/ws/install
+[0.520s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/kim/ros2/ws/install
+[0.523s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/kim/ros2/downloadws/install
+[0.525s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/kim/is/ubnutu/ws/install
+[0.528s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'check_qos' build argument 'cmake_args' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'check_qos' build argument 'cmake_target' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'check_qos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'check_qos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'check_qos' build argument 'cmake_clean_first' from command line to 'False'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'check_qos' build argument 'cmake_force_configure' from command line to 'False'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'check_qos' build argument 'ament_cmake_args' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'check_qos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'check_qos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.610s] DEBUG:colcon.colcon_core.verb:Building package 'check_qos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/open_topic/linux/ws/build/check_qos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/open_topic/linux/ws/install/check_qos', 'merge_install': False, 'path': '/home/kim/open_topic/linux/ws/src/check_qos', 'symlink_install': False, 'test_result_base': None}
+[0.613s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.626s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.627s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kim/open_topic/linux/ws/src/check_qos' with build type 'ament_cmake'
+[0.627s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kim/open_topic/linux/ws/src/check_qos'
+[0.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.647s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.647s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/open_topic/linux/ws/build/check_qos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake /home/kim/open_topic/linux/ws/src/check_qos -DCMAKE_INSTALL_PREFIX=/home/kim/open_topic/linux/ws/install/check_qos
+[2.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/open_topic/linux/ws/build/check_qos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake /home/kim/open_topic/linux/ws/src/check_qos -DCMAKE_INSTALL_PREFIX=/home/kim/open_topic/linux/ws/install/check_qos
+[2.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/open_topic/linux/ws/build/check_qos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/check_qos -- -j12 -l12
+[3.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/open_topic/linux/ws/build/check_qos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/check_qos -- -j12 -l12
+[3.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/open_topic/linux/ws/build/check_qos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/check_qos
+[3.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(check_qos)
+[3.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/open_topic/linux/ws/build/check_qos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/check_qos
+[3.334s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos' for CMake module files
+[3.334s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos' for CMake config files
+[3.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('check_qos', 'cmake_prefix_path')
+[3.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/cmake_prefix_path.ps1'
+[3.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/cmake_prefix_path.dsv'
+[3.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/cmake_prefix_path.sh'
+[3.342s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/lib'
+[3.342s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/bin'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/lib/pkgconfig/check_qos.pc'
+[3.344s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/lib/python3.8/site-packages'
+[3.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('check_qos', 'pythonpath')
+[3.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/pythonpath.ps1'
+[3.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/pythonpath.dsv'
+[3.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/pythonpath.sh'
+[3.353s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/bin'
+[3.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.ps1'
+[3.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.dsv'
+[3.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.sh'
+[3.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.bash'
+[3.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.zsh'
+[3.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/open_topic/linux/ws/install/check_qos/share/colcon-core/packages/check_qos)
+[3.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(check_qos)
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos' for CMake module files
+[3.465s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos' for CMake config files
+[3.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('check_qos', 'cmake_prefix_path')
+[3.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/cmake_prefix_path.ps1'
+[3.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/cmake_prefix_path.dsv'
+[3.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/cmake_prefix_path.sh'
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/lib'
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/bin'
+[3.473s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/lib/pkgconfig/check_qos.pc'
+[3.473s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/lib/python3.8/site-packages'
+[3.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('check_qos', 'pythonpath')
+[3.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/pythonpath.ps1'
+[3.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/pythonpath.dsv'
+[3.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/hook/pythonpath.sh'
+[3.479s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/check_qos/bin'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.ps1'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.dsv'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.sh'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.bash'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.zsh'
+[3.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/open_topic/linux/ws/install/check_qos/share/colcon-core/packages/check_qos)
+[3.486s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.487s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.487s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.487s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.493s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.550s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.561s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/open_topic/linux/ws/install/local_setup.ps1'
+[3.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kim/open_topic/linux/ws/install/_local_setup_util_ps1.py'
+[3.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/open_topic/linux/ws/install/setup.ps1'
+[3.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/open_topic/linux/ws/install/local_setup.sh'
+[3.567s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kim/open_topic/linux/ws/install/_local_setup_util_sh.py'
+[3.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/open_topic/linux/ws/install/setup.sh'
+[3.572s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/open_topic/linux/ws/install/local_setup.bash'
+[3.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/open_topic/linux/ws/install/setup.bash'
+[3.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/open_topic/linux/ws/install/local_setup.zsh'
+[3.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/open_topic/linux/ws/install/setup.zsh'

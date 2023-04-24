@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import torch
 from models.experimental import attempt_load
 from utils import torch_utils
@@ -10,7 +12,7 @@ import pandas as pd
 cam = cv2.VideoCapture(0)
 
 # Load model
-path = 'runs/train/exp12/weights/best.pt'
+path = 'best.pt'
 model = torch.hub.load('ultralytics/yolov5', 'custom', path=path, force_reload=True)  # load FP32 model
 time_now = time.time()
 while True:

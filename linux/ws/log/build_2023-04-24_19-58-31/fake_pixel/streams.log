@@ -1,0 +1,69 @@
+[0.030s] Invoking command in '/home/kim/open_topic/linux/ws/build/fake_pixel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake /home/kim/open_topic/linux/ws/src/fake_pixel -DCMAKE_INSTALL_PREFIX=/home/kim/open_topic/linux/ws/install/fake_pixel
+[0.260s] -- The C compiler identification is GNU 9.4.0
+[0.405s] -- The CXX compiler identification is GNU 9.4.0
+[0.422s] -- Detecting C compiler ABI info
+[0.477s] -- Detecting C compiler ABI info - done
+[0.484s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.485s] -- Detecting C compile features
+[0.486s] -- Detecting C compile features - done
+[0.490s] -- Detecting CXX compiler ABI info
+[0.549s] -- Detecting CXX compiler ABI info - done
+[0.557s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.557s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.562s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.593s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.594s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.794s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.869s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.953s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.979s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.064s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.133s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.136s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.138s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.200s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.201s] -- Looking for pthread_create in pthreads
+[1.243s] -- Looking for pthread_create in pthreads - not found
+[1.244s] -- Looking for pthread_create in pthread
+[1.293s] -- Looking for pthread_create in pthread - found
+[1.294s] -- Found Threads: TRUE  
+[1.438s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[1.605s] -- Configuring done
+[1.612s] -- Generating done
+[1.613s] -- Build files have been written to: /home/kim/open_topic/linux/ws/build/fake_pixel
+[1.627s] Invoked command in '/home/kim/open_topic/linux/ws/build/fake_pixel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake /home/kim/open_topic/linux/ws/src/fake_pixel -DCMAKE_INSTALL_PREFIX=/home/kim/open_topic/linux/ws/install/fake_pixel
+[1.631s] Invoking command in '/home/kim/open_topic/linux/ws/build/fake_pixel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/fake_pixel -- -j12 -l12
+[1.677s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[1.898s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[1.974s] [100%] Built target cpp_node_test
+[1.981s] Invoked command in '/home/kim/open_topic/linux/ws/build/fake_pixel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/fake_pixel -- -j12 -l12
+[2.061s] Invoking command in '/home/kim/open_topic/linux/ws/build/fake_pixel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/fake_pixel
+[2.084s] -- Install configuration: ""
+[2.084s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/environment/pythonpath.sh
+[2.085s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/environment/pythonpath.dsv
+[2.085s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/lib/python3.8/site-packages/fake_pixel
+[2.085s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/lib/python3.8/site-packages/fake_pixel/dummy_module.py
+[2.085s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/lib/python3.8/site-packages/fake_pixel/__init__.py
+[2.110s] Listing '/home/kim/open_topic/linux/ws/install/fake_pixel/lib/python3.8/site-packages/fake_pixel'...
+[2.110s] Compiling '/home/kim/open_topic/linux/ws/install/fake_pixel/lib/python3.8/site-packages/fake_pixel/__init__.py'...
+[2.110s] Compiling '/home/kim/open_topic/linux/ws/install/fake_pixel/lib/python3.8/site-packages/fake_pixel/dummy_module.py'...
+[2.113s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/lib/fake_pixel/dummy_script.py
+[2.113s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel
+[2.113s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/ament_index/resource_index/package_run_dependencies/fake_pixel
+[2.114s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/ament_index/resource_index/parent_prefix_path/fake_pixel
+[2.114s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/environment/ament_prefix_path.sh
+[2.114s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/environment/ament_prefix_path.dsv
+[2.114s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/environment/path.sh
+[2.114s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/environment/path.dsv
+[2.114s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/local_setup.bash
+[2.114s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/local_setup.sh
+[2.115s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/local_setup.zsh
+[2.115s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/local_setup.dsv
+[2.115s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.dsv
+[2.115s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/ament_index/resource_index/packages/fake_pixel
+[2.115s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/cmake/fake_pixelConfig.cmake
+[2.115s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/cmake/fake_pixelConfig-version.cmake
+[2.115s] -- Installing: /home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.xml
+[2.119s] Invoked command in '/home/kim/open_topic/linux/ws/build/fake_pixel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/fake_pixel

@@ -1,0 +1,11 @@
+source;share/fake_pixel/hook/cmake_prefix_path.ps1
+source;share/fake_pixel/hook/cmake_prefix_path.dsv
+source;share/fake_pixel/hook/cmake_prefix_path.sh
+source;share/fake_pixel/hook/pythonpath.ps1
+source;share/fake_pixel/hook/pythonpath.dsv
+source;share/fake_pixel/hook/pythonpath.sh
+source;share/fake_pixel/local_setup.bash
+source;share/fake_pixel/local_setup.dsv
+source;share/fake_pixel/local_setup.ps1
+source;share/fake_pixel/local_setup.sh
+source;share/fake_pixel/local_setup.zsh

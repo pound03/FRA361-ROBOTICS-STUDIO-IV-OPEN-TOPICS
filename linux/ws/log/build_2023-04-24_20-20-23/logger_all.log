@@ -1,0 +1,296 @@
+[0.368s] DEBUG:colcon:Command line arguments: ['/home/kim/.local/bin/colcon', 'build']
+[0.368s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f38b6ab1e20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f38b6ab1e20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f38b69f2610>)
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.417s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kim/open_topic/linux/ws'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_image) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fake_image' with type 'ros.ament_cmake' and name 'fake_image'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_pixel) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fake_pixel' with type 'ros.ament_cmake' and name 'fake_pixel'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixel2coordinate) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pixel2coordinate' with type 'ros.ament_cmake' and name 'pixel2coordinate'
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.479s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/kim/open_topic/linux/ws/install
+[0.481s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/kim/ros2/ws/install
+[0.484s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/kim/ros2/downloadws/install
+[0.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/kim/is/ubnutu/ws/install
+[0.489s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.552s] Level 5:colcon.colcon_core.verb:set package 'fake_image' build argument 'cmake_args' from command line to 'None'
+[0.552s] Level 5:colcon.colcon_core.verb:set package 'fake_image' build argument 'cmake_target' from command line to 'None'
+[0.552s] Level 5:colcon.colcon_core.verb:set package 'fake_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.552s] Level 5:colcon.colcon_core.verb:set package 'fake_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.552s] Level 5:colcon.colcon_core.verb:set package 'fake_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.552s] Level 5:colcon.colcon_core.verb:set package 'fake_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.552s] Level 5:colcon.colcon_core.verb:set package 'fake_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.552s] Level 5:colcon.colcon_core.verb:set package 'fake_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.552s] Level 5:colcon.colcon_core.verb:set package 'fake_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.552s] DEBUG:colcon.colcon_core.verb:Building package 'fake_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/open_topic/linux/ws/build/fake_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/open_topic/linux/ws/install/fake_image', 'merge_install': False, 'path': '/home/kim/open_topic/linux/ws/src/fake_image', 'symlink_install': False, 'test_result_base': None}
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'fake_pixel' build argument 'cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'fake_pixel' build argument 'cmake_target' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'fake_pixel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'fake_pixel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'fake_pixel' build argument 'cmake_clean_first' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'fake_pixel' build argument 'cmake_force_configure' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'fake_pixel' build argument 'ament_cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'fake_pixel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'fake_pixel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.554s] DEBUG:colcon.colcon_core.verb:Building package 'fake_pixel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/open_topic/linux/ws/build/fake_pixel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/open_topic/linux/ws/install/fake_pixel', 'merge_install': False, 'path': '/home/kim/open_topic/linux/ws/src/fake_pixel', 'symlink_install': False, 'test_result_base': None}
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'pixel2coordinate' build argument 'cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'pixel2coordinate' build argument 'cmake_target' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'pixel2coordinate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'pixel2coordinate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'pixel2coordinate' build argument 'cmake_clean_first' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'pixel2coordinate' build argument 'cmake_force_configure' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'pixel2coordinate' build argument 'ament_cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'pixel2coordinate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'pixel2coordinate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.556s] DEBUG:colcon.colcon_core.verb:Building package 'pixel2coordinate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kim/open_topic/linux/ws/build/pixel2coordinate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kim/open_topic/linux/ws/install/pixel2coordinate', 'merge_install': False, 'path': '/home/kim/open_topic/linux/ws/src/pixel2coordinate', 'symlink_install': False, 'test_result_base': None}
+[0.559s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.569s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kim/open_topic/linux/ws/src/fake_image' with build type 'ament_cmake'
+[0.569s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kim/open_topic/linux/ws/src/fake_image'
+[0.578s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.600s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kim/open_topic/linux/ws/src/fake_pixel' with build type 'ament_cmake'
+[0.602s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kim/open_topic/linux/ws/src/fake_pixel'
+[0.608s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.626s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kim/open_topic/linux/ws/src/pixel2coordinate' with build type 'ament_cmake'
+[0.626s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kim/open_topic/linux/ws/src/pixel2coordinate'
+[0.633s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.633s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/open_topic/linux/ws/build/fake_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/fake_image -- -j12 -l12
+[0.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/open_topic/linux/ws/build/fake_pixel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/fake_pixel -- -j12 -l12
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/pixel2coordinate -- -j12 -l12
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/open_topic/linux/ws/build/fake_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/fake_image -- -j12 -l12
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/open_topic/linux/ws/build/fake_pixel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/fake_pixel -- -j12 -l12
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/pixel2coordinate -- -j12 -l12
+[0.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/open_topic/linux/ws/build/fake_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/fake_image
+[0.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/open_topic/linux/ws/build/fake_pixel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/fake_pixel
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/pixel2coordinate
+[0.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_image)
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/open_topic/linux/ws/build/fake_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/fake_image
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image' for CMake module files
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image' for CMake config files
+[1.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_image', 'cmake_prefix_path')
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/cmake_prefix_path.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/cmake_prefix_path.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/cmake_prefix_path.sh'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/lib'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/bin'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/lib/pkgconfig/fake_image.pc'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/lib/python3.8/site-packages'
+[1.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_image', 'pythonpath')
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/pythonpath.ps1'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/pythonpath.dsv'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/pythonpath.sh'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/bin'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.ps1'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.sh'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.bash'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.zsh'
+[1.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/open_topic/linux/ws/install/fake_image/share/colcon-core/packages/fake_image)
+[1.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_pixel)
+[1.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/open_topic/linux/ws/build/fake_pixel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/fake_pixel
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel' for CMake module files
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel' for CMake config files
+[1.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_pixel', 'cmake_prefix_path')
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/cmake_prefix_path.ps1'
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/cmake_prefix_path.dsv'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/cmake_prefix_path.sh'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/lib'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/bin'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/lib/pkgconfig/fake_pixel.pc'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/lib/python3.8/site-packages'
+[1.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_pixel', 'pythonpath')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/pythonpath.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/pythonpath.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/pythonpath.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/bin'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.sh'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.bash'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.zsh'
+[1.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/open_topic/linux/ws/install/fake_pixel/share/colcon-core/packages/fake_pixel)
+[1.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pixel2coordinate)
+[1.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/pixel2coordinate
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate' for CMake module files
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate' for CMake config files
+[1.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixel2coordinate', 'cmake_prefix_path')
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/cmake_prefix_path.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/cmake_prefix_path.dsv'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/cmake_prefix_path.sh'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/lib'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/bin'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/lib/pkgconfig/pixel2coordinate.pc'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/lib/python3.8/site-packages'
+[1.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixel2coordinate', 'pythonpath')
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/pythonpath.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/pythonpath.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/pythonpath.sh'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/bin'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.sh'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.bash'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.zsh'
+[1.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/colcon-core/packages/pixel2coordinate)
+[1.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_image)
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image' for CMake module files
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image' for CMake config files
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_image', 'cmake_prefix_path')
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/cmake_prefix_path.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/cmake_prefix_path.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/cmake_prefix_path.sh'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/lib'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/bin'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/lib/pkgconfig/fake_image.pc'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/lib/python3.8/site-packages'
+[1.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_image', 'pythonpath')
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/pythonpath.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/pythonpath.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/hook/pythonpath.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_image/bin'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.sh'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.bash'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_image/share/fake_image/package.zsh'
+[1.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/open_topic/linux/ws/install/fake_image/share/colcon-core/packages/fake_image)
+[1.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_pixel)
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel' for CMake module files
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel' for CMake config files
+[1.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_pixel', 'cmake_prefix_path')
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/cmake_prefix_path.ps1'
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/cmake_prefix_path.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/cmake_prefix_path.sh'
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/lib'
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/bin'
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/lib/pkgconfig/fake_pixel.pc'
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/lib/python3.8/site-packages'
+[1.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_pixel', 'pythonpath')
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/pythonpath.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/pythonpath.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/hook/pythonpath.sh'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/fake_pixel/bin'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.bash'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/fake_pixel/share/fake_pixel/package.zsh'
+[1.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/open_topic/linux/ws/install/fake_pixel/share/colcon-core/packages/fake_pixel)
+[1.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pixel2coordinate)
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate' for CMake module files
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate' for CMake config files
+[1.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixel2coordinate', 'cmake_prefix_path')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/cmake_prefix_path.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/cmake_prefix_path.dsv'
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/cmake_prefix_path.sh'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/lib'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/bin'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/lib/pkgconfig/pixel2coordinate.pc'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/lib/python3.8/site-packages'
+[1.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixel2coordinate', 'pythonpath')
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/pythonpath.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/pythonpath.dsv'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/hook/pythonpath.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/kim/open_topic/linux/ws/install/pixel2coordinate/bin'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.sh'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.bash'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/pixel2coordinate/package.zsh'
+[1.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kim/open_topic/linux/ws/install/pixel2coordinate/share/colcon-core/packages/pixel2coordinate)
+[1.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.270s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.281s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.301s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.307s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/open_topic/linux/ws/install/local_setup.ps1'
+[1.309s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kim/open_topic/linux/ws/install/_local_setup_util_ps1.py'
+[1.311s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/open_topic/linux/ws/install/setup.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/open_topic/linux/ws/install/local_setup.sh'
+[1.314s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kim/open_topic/linux/ws/install/_local_setup_util_sh.py'
+[1.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/open_topic/linux/ws/install/setup.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/open_topic/linux/ws/install/local_setup.bash'
+[1.318s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/open_topic/linux/ws/install/setup.bash'
+[1.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kim/open_topic/linux/ws/install/local_setup.zsh'
+[1.321s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kim/open_topic/linux/ws/install/setup.zsh'

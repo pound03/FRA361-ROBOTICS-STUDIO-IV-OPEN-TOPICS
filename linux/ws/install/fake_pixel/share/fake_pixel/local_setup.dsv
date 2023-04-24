@@ -1,0 +1,3 @@
+source;share/fake_pixel/environment/ament_prefix_path.sh
+source;share/fake_pixel/environment/path.sh
+source;share/fake_pixel/environment/pythonpath.sh

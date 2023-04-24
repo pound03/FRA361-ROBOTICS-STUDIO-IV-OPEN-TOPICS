@@ -1,0 +1,10 @@
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/uninstall.dir
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/pixel2coordinate_uninstall.dir
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/cpp_node_test.dir
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/test.dir
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/edit_cache.dir
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/rebuild_cache.dir
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/list_install_components.dir
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/install.dir
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/install/local.dir
+/home/kim/open_topic/linux/ws/build/pixel2coordinate/CMakeFiles/install/strip.dir

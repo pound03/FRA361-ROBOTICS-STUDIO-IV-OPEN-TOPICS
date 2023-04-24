@@ -1,0 +1,4 @@
+Invoking command in '/home/kim/open_topic/linux/ws/build/check_qos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/check_qos -- -j12 -l12
+Invoked command in '/home/kim/open_topic/linux/ws/build/check_qos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/check_qos -- -j12 -l12
+Invoking command in '/home/kim/open_topic/linux/ws/build/check_qos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/check_qos
+Invoked command in '/home/kim/open_topic/linux/ws/build/check_qos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/check_qos

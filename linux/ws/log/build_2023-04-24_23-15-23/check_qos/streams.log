@@ -1,0 +1,69 @@
+[0.049s] Invoking command in '/home/kim/open_topic/linux/ws/build/check_qos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake /home/kim/open_topic/linux/ws/src/check_qos -DCMAKE_INSTALL_PREFIX=/home/kim/open_topic/linux/ws/install/check_qos
+[0.181s] -- The C compiler identification is GNU 9.4.0
+[0.267s] -- The CXX compiler identification is GNU 9.4.0
+[0.277s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.366s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.367s] -- Detecting C compile features
+[0.367s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.469s] -- Detecting CXX compiler ABI info - done
+[0.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.481s] -- Detecting CXX compile features
+[0.481s] -- Detecting CXX compile features - done
+[0.487s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.518s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.518s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.775s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.821s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.838s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.943s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.974s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.123s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.124s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.125s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.219s] -- Looking for pthread_create in pthreads
+[1.296s] -- Looking for pthread_create in pthreads - not found
+[1.296s] -- Looking for pthread_create in pthread
+[1.389s] -- Looking for pthread_create in pthread - found
+[1.390s] -- Found Threads: TRUE  
+[1.534s] -- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+[1.824s] -- Configuring done
+[1.843s] -- Generating done
+[1.844s] -- Build files have been written to: /home/kim/open_topic/linux/ws/build/check_qos
+[1.864s] Invoked command in '/home/kim/open_topic/linux/ws/build/check_qos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake /home/kim/open_topic/linux/ws/src/check_qos -DCMAKE_INSTALL_PREFIX=/home/kim/open_topic/linux/ws/install/check_qos
+[1.870s] Invoking command in '/home/kim/open_topic/linux/ws/build/check_qos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/check_qos -- -j12 -l12
+[1.953s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[2.285s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[2.422s] [100%] Built target cpp_node_test
+[2.437s] Invoked command in '/home/kim/open_topic/linux/ws/build/check_qos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/check_qos -- -j12 -l12
+[2.590s] Invoking command in '/home/kim/open_topic/linux/ws/build/check_qos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/check_qos
+[2.620s] -- Install configuration: ""
+[2.621s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/environment/pythonpath.sh
+[2.621s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/environment/pythonpath.dsv
+[2.621s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/lib/python3.8/site-packages/check_qos
+[2.621s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/lib/python3.8/site-packages/check_qos/dummy_module.py
+[2.621s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/lib/python3.8/site-packages/check_qos/__init__.py
+[2.676s] Listing '/home/kim/open_topic/linux/ws/install/check_qos/lib/python3.8/site-packages/check_qos'...
+[2.676s] Compiling '/home/kim/open_topic/linux/ws/install/check_qos/lib/python3.8/site-packages/check_qos/__init__.py'...
+[2.676s] Compiling '/home/kim/open_topic/linux/ws/install/check_qos/lib/python3.8/site-packages/check_qos/dummy_module.py'...
+[2.684s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/lib/check_qos/dummy_script.py
+[2.685s] -- Up-to-date: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos
+[2.685s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/ament_index/resource_index/package_run_dependencies/check_qos
+[2.685s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/ament_index/resource_index/parent_prefix_path/check_qos
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/environment/ament_prefix_path.sh
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/environment/ament_prefix_path.dsv
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/environment/path.sh
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/environment/path.dsv
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/local_setup.bash
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/local_setup.sh
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/local_setup.zsh
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/local_setup.dsv
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.dsv
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/ament_index/resource_index/packages/check_qos
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/cmake/check_qosConfig.cmake
+[2.686s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/cmake/check_qosConfig-version.cmake
+[2.687s] -- Installing: /home/kim/open_topic/linux/ws/install/check_qos/share/check_qos/package.xml
+[2.697s] Invoked command in '/home/kim/open_topic/linux/ws/build/check_qos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/check_qos
