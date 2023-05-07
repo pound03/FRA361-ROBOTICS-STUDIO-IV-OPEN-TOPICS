@@ -24,7 +24,7 @@ class DelayFrame(Node):
             10)
         
         hz = 5
-        self.timer = self.create_timer(1/hz, self.timer_callback)
+        self.timer = self.create_timer(1, self.timer_callback)
 
         self.start = np.array([False, False])
 

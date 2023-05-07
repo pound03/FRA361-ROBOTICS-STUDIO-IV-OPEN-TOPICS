@@ -32,7 +32,7 @@ class Process(Node):
         name = 'Node_detection'
         super().__init__(name)
         print(name, 'is started')
-        hz = 3
+        hz = 0.5
         self.timer = self.create_timer(1/hz, self.timer_callback)
         self.current_time = self.get_clock().now()
 
@@ -81,6 +81,7 @@ class Process(Node):
             self.current_time = self.get_clock().now()
 
             results = self.model(image_global)
+            print('time process: ', time.time() - time_Start)
             image_changed = False
 
             frame_result = np.squeeze(results.render())
