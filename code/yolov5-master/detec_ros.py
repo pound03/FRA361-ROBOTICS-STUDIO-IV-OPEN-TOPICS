@@ -37,6 +37,7 @@ class Process(Node):
         self.current_time = self.get_clock().now()
 
         path = '/home/carver/kim_open_topic/code/yolov5-master/best.pt'
+        torch.hub._validate_not_a_forked_repo=lambda a,b,c: True
         self.model = torch.hub.load('ultralytics/yolov5', 'custom', path=path, force_reload=True)
 
         profile = rclpy.qos.qos_profile_sensor_data
@@ -83,7 +84,7 @@ class Process(Node):
 
 
             results = self.model(image_global)
-            print('time process: ', time.time() - time_Start)
+            # print('time process: ', time.time() - time_Start)
             image_changed = False
 
             frame_result = np.squeeze(results.render())
@@ -123,10 +124,9 @@ class Process(Node):
                 pose.position.y = df['center_y'][i]
                 self.msg.poses.append(pose)
                 print('i: ', i , 'x: ', df['center_x'][i], 'y: ', df['center_y'][i])
-            print('time to send data: ', time.time() - time_Start)
+            print('main thread time: ', time.time() - time_Start)
             cv2.imshow('detect node', cv2.resize(frame_result , (480,240)))
-        else:
-            print('no image')
+
         self.publisher_.publish(self.msg)
         cv2.waitKey(1)
 

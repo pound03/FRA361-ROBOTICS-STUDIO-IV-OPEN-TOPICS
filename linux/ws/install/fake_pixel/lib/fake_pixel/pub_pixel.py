@@ -11,16 +11,16 @@ class DummyNode(Node):
     def __init__(self):
         super().__init__('dummy_node')
         self.publisher_ = self.create_publisher(PoseArray, '/pixel_target', 10)
-        self.timer = self.create_timer(2, self.timer_callback)
-        self.count = 2
+        self.timer = self.create_timer(10, self.timer_callback)
+        self.count = 4
 
     def timer_callback(self):
         msg = PoseArray()
         msg.header.stamp = self.get_clock().now().to_msg()
         #1280, 720
         #x = linespace(0, 1280, 10)
-        x = np.linspace(100, 1200, self.count)
-        y = np.linspace(100, 620, self.count)
+        x = np.linspace(200, 1000, self.count)
+        y = np.linspace(200, 420, self.count)
         for i in range(self.count):
             msg_sub = Pose()
             msg_sub.position.x = x[i]
@@ -30,7 +30,7 @@ class DummyNode(Node):
         
         self.publisher_.publish(msg)
         self.count += 1
-        if self.count > 5:
+        if self.count > 4:
             self.count = 2
         print('Publishing: "%d"' % self.count)
 def main(args=None):

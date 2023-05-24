@@ -53,6 +53,10 @@ class Estimate_coordinate(Node):
         self.depth_image = np.zeros((480, 640, 1), np.uint8)
         #np.array false *4 
         self.start = np.array([False, False, False, False])
+
+        self.mode_send_pose = True
+        if self.mode_send_pose:
+            self.pub_pose = self.create_publisher(PoseArray, '/world_pose', 1)
         
     def target_sub_callback(self, msg:PoseArray):
         self.target = msg.poses
@@ -97,6 +101,26 @@ class Estimate_coordinate(Node):
                     cv.putText(Image, 'x: ' + str(self.point[0]), (int(self.pos.x), int(self.pos.y) + 20), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
                     cv.putText(Image, 'y: ' + str(self.point[1]), (int(self.pos.x), int(self.pos.y) + 40), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
                     cv.putText(Image, 'z: ' + str(self.point[2]), (int(self.pos.x), int(self.pos.y) + 60), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+
+
+                if self.mode_send_pose:
+                    msg = PoseArray()
+                    msg.header.frame_id = 'camera_link'
+                    msg.header.stamp = self.get_clock().now().to_msg()
+                    for i in range(len(self.target)):
+                        #calculate position of x, y, z
+                        self.pos = self.target[i].position
+                        z = float(depth_image[int(self.pos.y), int(self.pos.x)])
+                        self.point = self.convert_depth_to_phys_coord_using_realsense(self.pos.x, self.pos.y, z, self.camera_info)
+                        #round to 2 decimal places
+                        self.point = np.round(self.point, 2)
+                        msg_pos = Pose()
+                        msg_pos.position.x = self.point[2]/1000
+                        msg_pos.position.y = self.point[0]/1000
+                        msg_pos.position.z = self.point[1]/1000
+                        msg.poses.append(msg_pos)
+                    self.pub_pose.publish(msg)
+
             cv.imshow('Cordinate node', cv.resize(Image , (480,240)))
             cv.imshow('Depth node', cv.resize(depth_image , (480,240))*10)
         cv.waitKey(1)

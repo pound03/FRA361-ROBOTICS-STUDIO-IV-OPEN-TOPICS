@@ -5,6 +5,8 @@ import torch
 import numpy as np
 import pandas as pd
 import time
+import multiprocessing
+import threading
 
 # import pyrealsense2 as rs2
 from cv_bridge import CvBridge                      
@@ -27,19 +29,28 @@ image_changed = False
 results = None
 results_changed = False
 
-class Interface(Node):
 
-class Process(Node):
+def process_image(stop_event):
+    global image_global , image_changed , results , results_changed
+    path = '/home/carver/kim_open_topic/code/yolov5-master/best.pt'
+    torch.hub._validate_not_a_forked_repo=lambda a,b,c: True
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path=path, force_reload=True)
+    while  not stop_event.is_set():
+        if image_changed:
+            time_start = time.time()
+            image_changed = False
+            results = model(image_global)
+            results_changed = True
+            print('anothor thread use time to process:', time.time() - time_start)
+
+class Interface(Node):
     def __init__(self):
-        name = 'Node_detection'
+        name = 'Node_detection_interface'
         super().__init__(name)
         print(name, 'is started')
-        hz = 5
+        hz = 30
         self.timer = self.create_timer(1/hz, self.timer_callback)
         self.current_time = self.get_clock().now()
-
-        path = '/home/carver/kim_open_topic/code/yolov5-master/best.pt'
-        self.model = torch.hub.load('ultralytics/yolov5', 'custom', path=path, force_reload=True)
 
         profile = rclpy.qos.qos_profile_sensor_data
         # profile = QoSProfile(  depth=1, reliability=QoSReliabilityPolicy.RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT,history=QoSHistoryPolicy.RMW_QOS_POLICY_HISTORY_KEEP_LAST)
@@ -80,19 +91,18 @@ class Process(Node):
 
     def timer_callback(self):
         global image_global, image_changed, results , results_changed
-        if image_changed:
+        # if results_changed:
+        if None != results:
             time_Start = time.time()
+            results_changed = False
+            #copy results to local
+            results_local = results
 
-
-            results = self.model(image_global)
-            print('time process: ', time.time() - time_Start)
-            image_changed = False
-
-            frame_result = np.squeeze(results.render())
+            frame_result = np.squeeze(results_local.render())
             frame_result = cv2.cvtColor(frame_result, cv2.COLOR_RGB2BGR)
             frame_result = cv2.resize(frame_result, (self.original_image_size[0], self.original_image_size[1]))
 
-            df = pd.DataFrame(results.pandas().xyxy[0])
+            df = pd.DataFrame(results_local.pandas().xyxy[0])
 
             df['xmin'] = df['xmin'] * self.original_image_size[0] / self.size_to_process[0]
             df['xmax'] = df['xmax'] * self.original_image_size[0] / self.size_to_process[0]
@@ -124,11 +134,9 @@ class Process(Node):
                 pose.position.x = df['center_x'][i]
                 pose.position.y = df['center_y'][i]
                 self.msg.poses.append(pose)
-                print('i: ', i , 'x: ', df['center_x'][i], 'y: ', df['center_y'][i])
-            print('time to send data: ', time.time() - time_Start)
+                # print('i: ', i , 'x: ', df['center_x'][i], 'y: ', df['center_y'][i])
+            print('main thread time: ', time.time() - time_Start)
             cv2.imshow('detect node', cv2.resize(frame_result , (480,240)))
-        else:
-            print('no image')
         self.publisher_.publish(self.msg)
         cv2.waitKey(1)
 
@@ -137,21 +145,22 @@ class Process(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = Process()
+    stop_event = threading.Event()
+    thread1 = threading.Thread(target=process_image, args=(stop_event,))
     try:
-        node_1 = Process()
-        node_2 = Interface()
-        executor = MultiThreadedExecutor(num_threads=16)
-        executor.add_node(node_1)
-        executor.add_node(node_2)
-        try:
-            executor.spin()
-        finally:
-            executor.shutdown()
-            node_1.destroy_node()
-            node_2.destroy_node()
+        Node2 = Interface()
+
+        thread1.daemon = True
+        thread1.start()
+
+        while rclpy.ok():
+            rclpy.spin_once(Node2)
+
+    except KeyboardInterrupt:
+        #thread stop
+        print('KeyboardInterrupt')
     finally:
-        rclpy.shutdown()
+        print('finally')
 
 if __name__=='__main__':
     main()
