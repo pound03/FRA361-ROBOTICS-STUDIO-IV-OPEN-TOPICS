@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "d:\FRA361 ROBOTICS STUDIO IV  OPEN TOPICS\code\Vehicle-Detection-main\train.py", line 611, in <module>
+    main(opt)
+  File "d:\FRA361 ROBOTICS STUDIO IV  OPEN TOPICS\code\Vehicle-Detection-main\train.py", line 509, in main
+    train(opt.hyp, opt, device)
+  File "d:\FRA361 ROBOTICS STUDIO IV  OPEN TOPICS\code\Vehicle-Detection-main\train.py", line 85, in train
+    loggers = Loggers(save_dir, weights, opt, hyp, LOGGER)  # loggers instance
+  File "d:\FRA361 ROBOTICS STUDIO IV  OPEN TOPICS\code\Vehicle-Detection-main\utils\loggers\__init__.py", line 62, in __init__
+    self.wandb = WandbLogger(self.opt, run_id)
+  File "d:\FRA361 ROBOTICS STUDIO IV  OPEN TOPICS\code\Vehicle-Detection-main\utils\loggers\wandb\wandb_utils.py", line 174, in __init__
+    self.data_dict = check_wandb_dataset(opt.data)
+  File "d:\FRA361 ROBOTICS STUDIO IV  OPEN TOPICS\code\Vehicle-Detection-main\utils\loggers\wandb\wandb_utils.py", line 46, in check_wandb_dataset
+    is_wandb_artifact = (data_dict['train'].startswith(WANDB_ARTIFACT_PREFIX) or
+AttributeError: 'NoneType' object has no attribute 'startswith'
