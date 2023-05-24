@@ -1,7 +1,0 @@
-setup.py
-check_qos/__init__.py
-check_qos/dummy_module.py
-check_qos.egg-info/PKG-INFO
-check_qos.egg-info/SOURCES.txt
-check_qos.egg-info/dependency_links.txt
-check_qos.egg-info/top_level.txt

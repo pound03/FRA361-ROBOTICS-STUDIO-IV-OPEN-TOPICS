@@ -1,3 +1,0 @@
-source;share/check_qos/environment/ament_prefix_path.sh
-source;share/check_qos/environment/path.sh
-source;share/check_qos/environment/pythonpath.sh

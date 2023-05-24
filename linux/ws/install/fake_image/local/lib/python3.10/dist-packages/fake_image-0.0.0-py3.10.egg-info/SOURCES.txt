@@ -1,7 +1,0 @@
-setup.py
-fake_image/__init__.py
-fake_image/dummy_module.py
-fake_image.egg-info/PKG-INFO
-fake_image.egg-info/SOURCES.txt
-fake_image.egg-info/dependency_links.txt
-fake_image.egg-info/top_level.txt
