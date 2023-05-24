@@ -1,0 +1,7 @@
+setup.py
+pixel2coordinate/__init__.py
+pixel2coordinate/dummy_module.py
+pixel2coordinate.egg-info/PKG-INFO
+pixel2coordinate.egg-info/SOURCES.txt
+pixel2coordinate.egg-info/dependency_links.txt
+pixel2coordinate.egg-info/top_level.txt

@@ -41,7 +41,7 @@ class Estimate_coordinate(Node):
             PoseArray,
             '/pixel_target',
             self.target_sub_callback,
-            10)
+            1)
         
         self.br = CvBridge()
         hz = 30
@@ -53,36 +53,37 @@ class Estimate_coordinate(Node):
         self.depth_image = np.zeros((480, 640, 1), np.uint8)
         #np.array false *4 
         self.start = np.array([False, False, False, False])
-
-        self.target_sub = self.create_subscription(
-            PoseArray,
-            '/pixel_target',
-            self.target_sub_callback,
-            10)
         
     def target_sub_callback(self, msg:PoseArray):
         self.target = msg.poses
+        # print(self.target)
         self.start[3] = True
 
 
     def CameraInfo_listener_callback(self, msg:CameraInfo):
         self.camera_info = msg
+        if self.start[0] == False:
+            print('receive camera info')
         self.start[0] = True
         # print('start')
 
     def image_sub_callback(self, msg):
         self.image = self.br.imgmsg_to_cv2(msg, "bgr8")
+        if self.start[1] == False:
+            print('receive image')
         self.start[1] = True
         
     def depth_sub_callback(self, msg):
         self.depth_image = self.br.imgmsg_to_cv2(msg, "passthrough")
+        if self.start[2] == False:
+            print('receive depth')
         self.start[2] = True
 
 
     def timer_callback(self):
-        Image = self.image
+        Image = self.image.copy()
         depth_image = self.depth_image
-        print(self.start)
+        # print(self.start)
         if self.start[0] and self.start[1] and self.start[2]:
             if self.start[3]:
                 for i in range(len(self.target)):
@@ -91,13 +92,14 @@ class Estimate_coordinate(Node):
                     self.point = self.convert_depth_to_phys_coord_using_realsense(self.pos.x, self.pos.y, z, self.camera_info)
                     #round to 2 decimal places
                     self.point = np.round(self.point, 2)
-                    print(self.point)
+                    print('i : ', i, 'x : ', self.point[0], 'y : ', self.point[1], 'z : ', self.point[2])
                     cv.circle(Image, (int(self.pos.x), int(self.pos.y)), 5, (0, 0, 255), -1)
-                    cv.putText(Image, 'x: ' + str(self.point[0]), (int(self.pos.x), int(self.pos.y) + 20), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-                    cv.putText(Image, 'y: ' + str(self.point[1]), (int(self.pos.x), int(self.pos.y) + 40), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-                    cv.putText(Image, 'z: ' + str(self.point[2]), (int(self.pos.x), int(self.pos.y) + 60), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-            cv.imshow('Image', Image)
-            cv.waitKey(1)
+                    cv.putText(Image, 'x: ' + str(self.point[0]), (int(self.pos.x), int(self.pos.y) + 20), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+                    cv.putText(Image, 'y: ' + str(self.point[1]), (int(self.pos.x), int(self.pos.y) + 40), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+                    cv.putText(Image, 'z: ' + str(self.point[2]), (int(self.pos.x), int(self.pos.y) + 60), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+            cv.imshow('Cordinate node', cv.resize(Image , (480,240)))
+            cv.imshow('Depth node', cv.resize(depth_image , (480,240))*10)
+        cv.waitKey(1)
 
 
         # Function for estimate real-world postion by pixel (x,y), depth, and camera info.

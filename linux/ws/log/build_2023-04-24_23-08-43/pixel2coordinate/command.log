@@ -1,4 +1,0 @@
-Invoking command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/pixel2coordinate -- -j12 -l12
-Invoked command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --build /home/kim/open_topic/linux/ws/build/pixel2coordinate -- -j12 -l12
-Invoking command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/pixel2coordinate
-Invoked command in '/home/kim/open_topic/linux/ws/build/pixel2coordinate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/kim/.local/bin/cmake --install /home/kim/open_topic/linux/ws/build/pixel2coordinate

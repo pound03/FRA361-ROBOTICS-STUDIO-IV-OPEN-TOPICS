@@ -1,9 +1,6 @@
 source;share/pixel2coordinate/hook/cmake_prefix_path.ps1
 source;share/pixel2coordinate/hook/cmake_prefix_path.dsv
 source;share/pixel2coordinate/hook/cmake_prefix_path.sh
-source;share/pixel2coordinate/hook/pythonpath.ps1
-source;share/pixel2coordinate/hook/pythonpath.dsv
-source;share/pixel2coordinate/hook/pythonpath.sh
 source;share/pixel2coordinate/local_setup.bash
 source;share/pixel2coordinate/local_setup.dsv
 source;share/pixel2coordinate/local_setup.ps1

@@ -41,7 +41,7 @@ class Estimate_coordinate(Node):
             PoseArray,
             '/pixel_target',
             self.target_sub_callback,
-            10)
+            1)
         
         self.br = CvBridge()
         hz = 30
@@ -96,7 +96,7 @@ class Estimate_coordinate(Node):
                     cv.putText(Image, 'x: ' + str(self.point[0]), (int(self.pos.x), int(self.pos.y) + 20), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                     cv.putText(Image, 'y: ' + str(self.point[1]), (int(self.pos.x), int(self.pos.y) + 40), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                     cv.putText(Image, 'z: ' + str(self.point[2]), (int(self.pos.x), int(self.pos.y) + 60), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-            cv.imshow('Image', Image)
+            cv.imshow('Cordinate node', cv.resize(Image , (480,240)))
             cv.waitKey(1)
 
 

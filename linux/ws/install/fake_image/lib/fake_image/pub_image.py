@@ -12,7 +12,7 @@ class DummyNode(Node):
         super().__init__('dummy_node')
         self.br = CvBridge()
 
-        self.image = cv.imread('/home/kim/open_topic/linux/ws/src/fake_image/images/1.jpg')
+        self.image = cv.imread('/home/carver/kim_open_topic/linux/ws/src/fake_image/images/1.jpg')
         # cv.imshow('image', self.image)
         # cv.waitKey(0)
         

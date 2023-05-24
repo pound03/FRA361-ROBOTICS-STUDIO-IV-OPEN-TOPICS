@@ -1,1 +1,0 @@
-/home/kim/open_topic/linux/ws/src/object_detection/scripts/estimate_coordinate_rs2.py

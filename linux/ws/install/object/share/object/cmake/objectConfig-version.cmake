@@ -1,1 +1,0 @@
-/home/kim/open_topic/linux/ws/build/object/ament_cmake_core/objectConfig-version.cmake

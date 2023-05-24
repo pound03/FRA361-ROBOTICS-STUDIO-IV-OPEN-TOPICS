@@ -1,9 +1,6 @@
 source;share/check_qos/hook/cmake_prefix_path.ps1
 source;share/check_qos/hook/cmake_prefix_path.dsv
 source;share/check_qos/hook/cmake_prefix_path.sh
-source;share/check_qos/hook/pythonpath.ps1
-source;share/check_qos/hook/pythonpath.dsv
-source;share/check_qos/hook/pythonpath.sh
 source;share/check_qos/local_setup.bash
 source;share/check_qos/local_setup.dsv
 source;share/check_qos/local_setup.ps1
